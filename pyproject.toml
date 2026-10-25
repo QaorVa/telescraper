@@ -1,0 +1,23 @@
+[project]
+name = "telescraper"
+version = "0.1.0"
+description = "Real-time Telegram group chat to Discord mirror (text + media)"
+readme = "README.md"
+authors = [
+    { name = "Abdan", email = "100664948+QaorVa@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.14.5",
+    "cryptg>=0.6.0",
+    "python-dotenv>=1.2.4",
+    "rich>=15.0.0",
+    "telethon>=1.45.0",
+]
+
+[project.scripts]
+telescraper = "telescraper:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"

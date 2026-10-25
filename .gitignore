@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets and Telethon session files
+.env
+*.session
+*.session-journal
+telescraper.db
+telescraper.db-shm
+telescraper.db-wal
+media/
+web/node_modules/
+web/dist/
